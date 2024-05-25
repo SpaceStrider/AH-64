@@ -1,0 +1,9 @@
+MatPBRBasic {
+ Cull none
+ SortBias 1
+ BlendMode AlphaBlend
+ MetalnessScale 0
+ CavityFromAO 0
+ BCRMap "{403943F3E78355BC}Assets/Vehicles/Helicopters/AH64/data/Textures/ah-64_apache_rotor.edds"
+ OpacityMap "{5D292AC207655375}Assets/Vehicles/Helicopters/AH64/data/Textures/ah-64_apache_rotor_A.edds"
+}

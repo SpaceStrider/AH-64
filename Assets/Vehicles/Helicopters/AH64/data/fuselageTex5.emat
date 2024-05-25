@@ -1,0 +1,6 @@
+MatPBRBasic {
+ Color 0.491 0.491 0.421 1
+ AOScale 2
+ BCRMap "{49EDA5650E88ACD6}Assets/Vehicles/Rotary/AH64/data/Textures/fuselageTex5_BCR.edds"
+ NMOMap "{71351EF7D7FFFE48}Assets/Vehicles/Rotary/AH64/data/Textures/fuselageTex5_NMO.edds"
+}

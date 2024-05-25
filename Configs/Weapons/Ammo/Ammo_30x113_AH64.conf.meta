@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{DA84783E052A2DFC}Configs/Weapons/Ammo/Ammo_30x113_AH64.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

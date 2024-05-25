@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{B67C426010706577}Assets/Vehicles/Rotary/AH64/data/lightEngWhite.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

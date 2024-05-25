@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{3CDE311913F1F5BD}Assets/Vehicles/Rotary/AH64/data/seatMetalSolid.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

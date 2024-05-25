@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9A4B50266614C41D}Prefabs/Vehicles/Helicopters/UH1H/VehParts/Rotor/VehPart_AH64_rotor_tail_base.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

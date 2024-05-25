@@ -1,0 +1,110 @@
+MetaFileClass {
+ Name "{A6DA007C7B53B3BE}Assets/Vehicles/Helicopters/AH64/AH-64_rotor_main_static.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   MaterialAssigns {
+    MaterialAssignClass "{615601489F651DAC}" {
+     SourceMaterial "ah64_apache"
+     AssignedMaterial "{933E3B129A95B0CA}Assets/Vehicles/Helicopters/AH64/data/ah64_apache.emat"
+    }
+   }
+   MeshParams {
+    MeshParam rotor_head {
+    }
+    MeshParam rotor_head_blades_static {
+    }
+    MeshParam rotor_radar {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_VC_mainRotor_blade01 {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{EDB153DC99889624}Common/Materials/Game/Metal/metal_3mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_VC_mainRotor_blade02 {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{EDB153DC99889624}Common/Materials/Game/Metal/metal_3mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_VC_mainRotor_blade03 {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{EDB153DC99889624}Common/Materials/Game/Metal/metal_3mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_VC_mainRotor_blade04 {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{EDB153DC99889624}Common/Materials/Game/Metal/metal_3mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCL_VC_mainRotor_Axial {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{EDB153DC99889624}Common/Materials/Game/Metal/metal_3mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_rotor_head {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{CCB8BAE847CF1561}Common/Materials/Game/Metal/metal_5mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_rotor_head_blades_static {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{524726AF97EC5DF4}Common/Materials/Game/Core/resin_fiberglass_2_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_rotor_radar {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{CCB8BAE847CF1561}Common/Materials/Game/Metal/metal_5mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{6156014898BACEB1}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6156014898BACF36}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6156014898BACF53}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6156014898BACF76}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6156014898BACF8E}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6156014898BACFA3}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

@@ -1,0 +1,5 @@
+MatPBRBasic {
+ BCRMap "{504A24C5E76D3B6D}Assets/Vehicles/Rotary/AH64/data/Textures/CyclicCollective_BCR.edds"
+ NormalPower 0.2
+ NMOMap "{68929F573E1A69F3}Assets/Vehicles/Rotary/AH64/data/Textures/CyclicCollective_NMO.edds"
+}

@@ -1,0 +1,23 @@
+GameProject {
+ ID "AH64"
+ GUID "5CCCC1DFB9C93581"
+ TITLE "AH64"
+ Dependencies {
+  "5AAF6D5352E5FCAB" "58D0FB3206B6F859" "5E389BB9F58B79A6" "5F1EE615E7AE3106"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 : PC {
+   PlatformHardware PS5
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{685F0BBC4A71B3B5}Prefabs/Weapons/Magazines/Box_30x113_M23F_1200rnd_HEDP.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{749BF9A8274516B8}Assets/Vehicles/Rotary/AH64/data/lightsBottomTail.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

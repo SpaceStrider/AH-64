@@ -1,0 +1,20 @@
+MetaFileClass {
+ Name "{CEE738B62AC2BE36}UI/Textures/EditorPreviews/Vehicles/Rotary/AH64/AH64D.edds"
+ Configurations {
+  PNGResourceClass PC {
+   ColorSpace ToSRGB
+  }
+  PNGResourceClass XBOX_ONE : PC {
+   ColorSpace ToSRGB
+  }
+  PNGResourceClass XBOX_SERIES : PC {
+   ColorSpace ToSRGB
+  }
+  PNGResourceClass PS4 : PC {
+   ColorSpace ToSRGB
+  }
+  PNGResourceClass HEADLESS : PC {
+   ColorSpace ToSRGB
+  }
+ }
+}

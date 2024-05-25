@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{397AD88435CA067B}Assets/Vehicles/Rotary/AH64/data/Textures/rudderPeddals_BCR.edds"
+ NMOMap "{01A26316ECBD54E5}Assets/Vehicles/Rotary/AH64/data/Textures/rudderPeddals_NMO.edds"
+}

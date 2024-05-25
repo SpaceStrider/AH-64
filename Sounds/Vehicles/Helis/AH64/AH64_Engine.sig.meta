@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{1D76109A4E8CF580}Sounds/Vehicles/Helis/Chinook/AH64_Engine.sig"
+ Configurations {
+  AudioSignalResourceClass PC {
+  }
+  AudioSignalResourceClass XBOX_ONE : PC {
+  }
+  AudioSignalResourceClass XBOX_SERIES : PC {
+  }
+  AudioSignalResourceClass PS4 : PC {
+  }
+  AudioSignalResourceClass HEADLESS : PC {
+  }
+ }
+}

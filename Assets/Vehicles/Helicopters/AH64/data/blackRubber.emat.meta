@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{530383BF8E9EB8DB}Assets/Vehicles/Rotary/AH64/data/blackRubber.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

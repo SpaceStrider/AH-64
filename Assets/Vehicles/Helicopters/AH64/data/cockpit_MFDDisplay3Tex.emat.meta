@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{AB3473FA96BA3E7E}Assets/Vehicles/Rotary/AH64/data/cockpit_MFDDisplay3Tex.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

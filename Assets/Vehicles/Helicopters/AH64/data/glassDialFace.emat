@@ -1,0 +1,4 @@
+MatPBRBasicGlass {
+ AlphaMul 0
+ FresnelPower 1.976
+}

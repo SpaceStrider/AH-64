@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{9130D9808D5048B4}Assets/Vehicles/Rotary/AH64/data/blackSwitchTex.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

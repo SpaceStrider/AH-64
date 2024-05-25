@@ -1,0 +1,11 @@
+VehiclePartRotor : "{22560CCA03206D5F}Prefabs/Vehicles/Core/Vehicle_Rotor_Base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{FA5CCD02954EC96E}Assets/Vehicles/Helicopters/UH1H/VehParts/Rotor/UH1H_Rotor_Main.xob"
+  }
+  SCR_RotorDamageManagerComponent "{3EBB276D48AFFF41}" {
+   m_sImpactSoundEvent "SOUND_VEHICLE_IMPACT_MAIN_ROTOR"
+  }
+ }
+}

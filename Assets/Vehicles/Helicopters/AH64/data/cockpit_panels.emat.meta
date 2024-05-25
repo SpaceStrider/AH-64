@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{7471F5E8A70C9F6C}Assets/Vehicles/Rotary/AH64/data/cockpit_panels.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{264969A0E0E49B59}Assets/Vehicles/Rotary/AH64/data/Chrome.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

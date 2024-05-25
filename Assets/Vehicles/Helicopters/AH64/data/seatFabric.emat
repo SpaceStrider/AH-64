@@ -1,0 +1,11 @@
+MatPBRBasic {
+ Color 0.162 0.162 0.162 1
+ SpecularMul 0.5
+ MetalnessScale 0
+ BCRMap "{794A8F488BA2687E}Assets/_SharedData/Fabric/ST_Fabric_Rough01_1m_BCR.edds"
+ NMOMap "{419234DA52D53AE0}Assets/_SharedData/Fabric/ST_Fabric_Rough01_1m_NMO.edds"
+ GlobalMapsUVTransform MatUVTransform "{5CF4570DD4AA5E5A}" {
+  TilingU 5
+  TilingV 5
+ }
+}

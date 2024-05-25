@@ -1,0 +1,6 @@
+MatPBRBasic {
+ Color 0.053 0.046 0.011 1
+ RoughnessScale 0.2
+ MetalnessScale 2
+ NMOMap "{FD516DFCEA8FBB2E}Assets/Vehicles/Rotary/AH64/data/Textures/Brass Antique_NMO.edds"
+}

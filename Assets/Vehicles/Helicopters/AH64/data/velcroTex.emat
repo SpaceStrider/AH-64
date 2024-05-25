@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{5C0B2ED3324EAE84}Assets/Vehicles/Rotary/AH64/data/Textures/velcroTex_BCR.edds"
+ NMOMap "{64D39541EB39FC1A}Assets/Vehicles/Rotary/AH64/data/Textures/velcroTex_NMO.edds"
+}

@@ -1,0 +1,4 @@
+MatPBRBasic {
+ Color 0.028 0.028 0.028 1
+ NMOMap "{359099326496ABA9}Assets/Vehicles/Rotary/AH64/data/Textures/GunMetall_NMO.edds"
+}

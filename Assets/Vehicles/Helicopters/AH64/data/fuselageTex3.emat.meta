@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{FD77B9B264863B3A}Assets/Vehicles/Rotary/AH64/data/fuselageTex3.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

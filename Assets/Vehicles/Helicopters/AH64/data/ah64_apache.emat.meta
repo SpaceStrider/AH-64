@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{933E3B129A95B0CA}Assets/Vehicles/Helicopters/AH64/Data/ah64_apache.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

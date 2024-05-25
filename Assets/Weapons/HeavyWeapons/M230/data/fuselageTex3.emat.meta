@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{956CA35BF37F2D5E}Assets/Weapons/HeavyWeapons/M230/data/fuselageTex3.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

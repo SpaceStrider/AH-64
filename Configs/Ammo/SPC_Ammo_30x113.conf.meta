@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{B714E132BFE28C54}Configs/Ammo/SPC_Ammo_30x113.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

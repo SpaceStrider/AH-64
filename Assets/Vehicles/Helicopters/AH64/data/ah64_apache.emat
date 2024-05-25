@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{3506B3BF421E9E6D}Assets/Vehicles/Helicopters/AH64/data/Textures/ah-64_apache_base_BCR.edds"
+ NMOMap "{0DDE082D9B69CCF3}Assets/Vehicles/Helicopters/AH64/data/Textures/ah-64_apache_base_NMO.edds"
+}

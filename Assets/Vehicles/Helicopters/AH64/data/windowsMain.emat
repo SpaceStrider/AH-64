@@ -1,0 +1,8 @@
+MatPBRBasicGlass {
+ Color 0.012 0.012 0.012 1
+ AlphaMul 0.3
+ RoughnessScale 0.643
+ MetalnessScale 0.818
+ DielectricReflectance 0.05
+ FresnelPower 3
+}

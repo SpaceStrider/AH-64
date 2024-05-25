@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{744F2917C0382148}Assets/Vehicles/Rotary/AH64/data/darkmetalTex.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

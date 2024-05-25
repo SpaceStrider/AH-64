@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0.527 0.527 0.527 1
+ MetalnessScale 0
+ BCRMap "{E31B5FD135E6EC08}Assets/Vehicles/Rotary/AH64/data/Textures/seat_beltTex_BCR.edds"
+}

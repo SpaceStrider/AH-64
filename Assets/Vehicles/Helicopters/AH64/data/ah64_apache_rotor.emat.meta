@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{DF78770865D12B2B}Assets/Vehicles/Helicopters/AH64/data/ah64_apache_rotor.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

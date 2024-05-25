@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{419EC3F0BE072E4D}Assets/Vehicles/Rotary/AH64/data/Textures/cockpit_panels2Tex_NMO.edds"
+ Configurations {
+  TIFFResourceClass PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+ }
+}

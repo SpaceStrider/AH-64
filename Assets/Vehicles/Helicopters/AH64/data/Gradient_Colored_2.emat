@@ -1,0 +1,11 @@
+MatPBRBasicGlass {
+ Color 1 0.195 0.982 1
+ SpecularIBL 0.474 1 0.495 1
+ AlphaMul 0.7
+ RoughnessScale 0
+ MetalnessScale 0
+ OpacityMap "{46CF67CB400DECC9}Assets/_SharedData/Glass/ST_Glass_Streaks_01_A.edds"
+ FresnelPower 0.162
+ FresnelBias 0.5
+ Backscatterig 0.4
+}

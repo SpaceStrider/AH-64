@@ -1,0 +1,378 @@
+ProcAnimProjectClass {
+ signals {
+  SignalClass {
+   id 9220
+   name "Traverse/Elevation"
+   tl -253 227
+   res "{8A2A79C52997F54F}anims/proc/turret.siga"
+   inputsport {
+    1 3
+   }
+   outputsport {
+    2 4
+   }
+   inputvalues {
+    4.6 13.1
+   }
+   inputvaluesmin {
+    -180 -45
+   }
+   inputvaluesmax {
+    180 45
+   }
+  }
+ }
+ funcs {
+  BoneClass {
+   id 1030
+   name "v_turret_01"
+   version 0
+   tl -15 -197
+   outs {
+    3078
+   }
+   bone "v_turret_01"
+  }
+  RotationMakeClass {
+   id 2054
+   name "Traverse"
+   tl -12.333 -89
+   iops {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 9220
+         port 2
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    3078
+   }
+  }
+  RotationSetClass {
+   id 3078
+   name "RotationSet 3078"
+   tl 216 -197
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 2054
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 1030
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+   UpdateCollider 1
+  }
+  BoneClass {
+   id 4102
+   name "v_gun_01"
+   version 0
+   tl -7.667 41
+   outs {
+    6150
+   }
+   bone "v_gun_01"
+  }
+  RotationMakeClass {
+   id 5126
+   name "Elevation"
+   tl -5 137
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 9220
+         port 4
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    6150
+   }
+  }
+  RotationSetClass {
+   id 6150
+   name "RotationSet 6150"
+   tl 225 40
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 5126
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 4102
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+   UpdateCollider 1
+  }
+  RotationMakeClass {
+   id 10246
+   name "RotationMake 10246"
+   tl -12 365
+   iops {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 9220
+         port 2
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    11270
+   }
+  }
+  RotationSetClass {
+   id 11270
+   name "RotationSet 11270"
+   tl 284 217
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 10246
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 12294
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+   UpdateCollider 1
+  }
+  BoneClass {
+   id 12294
+   name "Bone 12294"
+   version 0
+   tl -22 272
+   outs {
+    11270
+   }
+   bone "v_turret_02"
+  }
+  RotationMakeClass {
+   id 13318
+   name "RotationMake 13318"
+   tl -20 602
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 9220
+         port 4
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    14342
+   }
+  }
+  RotationSetClass {
+   id 14342
+   name "RotationSet 14342"
+   tl 333 523
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 15366
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 13318
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+   UpdateCollider 1
+  }
+  BoneClass {
+   id 15366
+   name "Bone 15366"
+   version 0
+   tl -9 532
+   outs {
+    14342
+   }
+   bone "v_gun_02"
+  }
+ }
+ model "{C88F8A581446575C}Assets/Vehicles/Helicopters/AH64/AH-64_turret.xob"
+ version 1
+ compiled ProcAnimCompiledClass {
+  visited {
+   1409 1153 1281 1025 769 897 513 385 641 129 1 257
+  }
+  ops {
+   ProcAnimCompiledOp {
+    data {
+     1 131072 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 131072 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 65536 0 0 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 327680 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 327680 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 262144 0 196608 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 458752 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 393216 0 524288 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 458752 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 655360 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 720896 0 589824 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 655360 0
+    }
+   }
+  }
+  version 2
+  argsize 20
+ }
+}

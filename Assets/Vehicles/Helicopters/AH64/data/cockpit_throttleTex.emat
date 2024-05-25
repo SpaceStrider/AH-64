@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{144182BC93A8F507}Assets/Vehicles/Rotary/AH64/data/Textures/cockpit_throttleTex_BCR.edds"
+ NMOMap "{2C99392E4ADFA799}Assets/Vehicles/Rotary/AH64/data/Textures/cockpit_throttleTex_NMO.edds"
+}

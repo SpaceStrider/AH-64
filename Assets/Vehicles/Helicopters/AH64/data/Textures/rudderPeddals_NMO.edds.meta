@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{01A26316ECBD54E5}Assets/Vehicles/Rotary/AH64/data/Textures/rudderPeddals_NMO.edds"
+ Configurations {
+  TIFFResourceClass PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+ }
+}

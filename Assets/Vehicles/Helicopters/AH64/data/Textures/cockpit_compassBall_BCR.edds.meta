@@ -1,0 +1,25 @@
+MetaFileClass {
+ Name "{0C883D1F79162C50}Assets/Vehicles/Rotary/AH64/data/Textures/cockpit_compassBall_BCR.edds"
+ Configurations {
+  TIFFResourceClass PC {
+   MaxSize "512"
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+   MaxSize "512"
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+   MaxSize "512"
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass PS4 : PC {
+   MaxSize "512"
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass HEADLESS : PC {
+   MaxSize "512"
+   ColorSpace ToSRGB
+  }
+ }
+}

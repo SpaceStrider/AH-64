@@ -1,0 +1,11 @@
+MatPBRDecal {
+ Color 0.016 0.016 0.016 1
+ BlendMode AlphaBlend
+ RoughnessScale 1.7
+ MetalnessScale 0
+ OpacityMap "{6D3E48E090A75485}Assets/Vehicles/Rotary/AH64/data/Textures/BaseDecals_Opacity.edds"
+ GBufferNormal 1
+ NormalCombinePower 1
+ GBufferRoughness 1
+ GBufferAO 1
+}

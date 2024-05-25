@@ -1,0 +1,58 @@
+MetaFileClass {
+ Name "{A061727D7C25F2D3}Assets/Weapons/HeavyWeapons/M230/M230.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   MaterialAssigns {
+    MaterialAssignClass "{5E3A4CE65B73163C}" {
+     SourceMaterial "fuselageTex6"
+     AssignedMaterial "{1E4FC276A410A92B}Assets/Vehicles/Rotary/AH64/data/fuselageTex6.emat"
+    }
+    MaterialAssignClass "{5E3A4CE65B73164F}" {
+     SourceMaterial "darkmetalTex"
+     AssignedMaterial "{1C5433FE57C1372C}Assets/Weapons/HeavyWeapons/M230/data/darkmetalTex.emat"
+    }
+    MaterialAssignClass "{5E3A4CE65B731655}" {
+     SourceMaterial "blackRubber"
+     AssignedMaterial "{6569C17DEECF2074}Assets/Vehicles/Rotary/AH64/data/blackRubberTex.emat"
+    }
+    MaterialAssignClass "{5E3A4CE65B731650}" {
+     SourceMaterial "fuselageTex3"
+     AssignedMaterial "{FD77B9B264863B3A}Assets/Vehicles/Rotary/AH64/data/fuselageTex3.emat"
+    }
+   }
+   MeshParams {
+    MeshParam "30mmCannon" {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_30mmCannon {
+     LayerPreset "WeaponFire"
+     SurfaceProperties {
+      "{3B2D2687F56BB4EF}Common/Materials/Game/WeaponParts/weapon_metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{5CD0226985F3BB15}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{5CD0226985F39243}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{5CD0226985F393D6}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{5CD0226985F39366}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{5CD0226985F39CBA}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

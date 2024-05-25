@@ -1,0 +1,38 @@
+VehiclePartRotor : "{7BCB97D3C842AB96}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Rotor/VehPart_AH64_rotor_base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{A6DA007C7B53B3BE}Assets/Vehicles/Helicopters/AH64/AH-64_rotor_main_static.xob"
+  }
+  RigidBody "{4B42E71692C2FB79}" {
+   CenterOfMass 0 4.8 -0.7
+  }
+  SCR_RotorDamageManagerComponent "{3EBB276D48AFFF41}" {
+   "Additional hit zones" {
+    SCR_RotorHitZone RotorMain_Shaft : "{526514E226D16477}Prefabs/Vehicles/Core/Configs/HitZones/Mast_Helicopter.conf" {
+     ColliderNames {
+      "UCS_FG_DriveShaft_01"
+     }
+     m_iRotorId 0
+    }
+    SCR_RotorHitZone RotorMain : "{185413B5BB8B835D}Prefabs/Vehicles/Core/Configs/HitZones/Rotor.conf" {
+     HZDefault 1
+     MaxHealth 750
+     AreaOverride 31.2
+     m_sDestructionSoundEvent "SOUND_VEHICLE_ROTOR_MAIN_DESTROYED"
+     m_sDestructionParticle "{0FD5AF013128E961}Particles/Vehicle/Helicopter/Helicopter_MI8_rotor_destruction.ptc"
+     m_iRotorId 0
+     m_RotorPointInfo PointInfo "{615616999F3B0DF8}" {
+      PivotID "v_rotor"
+      Angles 0 0 90
+     }
+     m_fRotorRadius 8
+     m_fRotorThickness 1
+     m_fBladeWidth 0.52
+     m_iBladeCount 5
+    }
+   }
+  }
+ }
+ Axis Y
+}

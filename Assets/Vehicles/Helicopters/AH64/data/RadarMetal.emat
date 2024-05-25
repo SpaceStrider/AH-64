@@ -1,0 +1,13 @@
+MatPBRMulti {
+ Cull none
+ GlobalNMOMap "{A4ADB3F1280C666A}Assets/Vehicles/Rotary/AH64/data/Textures/RadarMetal_NMO.edds"
+ Color_1 0.07 0.07 0.061 1
+ BCR_1 "{6390F3AA091C74E1}Assets/_SharedData/Metal/ST_MetalPaint_Mate_1m_BCR.edds"
+ NMO_1 "{5E9B5A9AF633BD94}Assets/_SharedData/Metal/ST_Steel_Battered_NMO.edds"
+ UVTransform_1 MatUVTransform "{5CCE3131680077BB}" {
+  TilingU 3
+  TilingV 3
+ }
+ DetNormal_1 0.3
+ Roughness_1 2
+}

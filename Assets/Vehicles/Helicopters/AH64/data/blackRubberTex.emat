@@ -1,0 +1,10 @@
+MatPBRBasic {
+ Color 0.005 0.005 0.005 1
+ RoughnessScale 0.814
+ MetalnessScale 0
+ BCRMap "{B141E00CC94C086A}Assets/_SharedData/Rubber/ST_Rubber_Aged01_1m_BCR.edds"
+ NMOMap "{89995B9E103B5AF4}Assets/_SharedData/Rubber/ST_Rubber_Aged01_1m_NMO.edds"
+ GlobalMapsUVTransform MatUVTransform "{5CF4570ACF0E2FD1}" {
+  TilingV 5
+ }
+}

@@ -1,0 +1,45 @@
+MetaFileClass {
+ Name "{0255FB5270B4E427}Assets/Vehicles/Rotary/AH64/dst/AH64D_Glass.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{5CD06CF172DF826B}" {
+     SourceMaterial "Window"
+     AssignedMaterial "{8ADC4377BAD3EA55}Assets/Vehicles/Rotary/AH64/dst/data/Window.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Glass_low {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_Glass {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{C97BA59A04D0889A}Common/Materials/Game/GlassArmored/glass_armored_15mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{5CD06CF172C449E7}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{5CD06CF172C44ABB}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{5CD06CF172C44AEC}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{5CD06CF172C44ACF}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{5CD06CF172C44AD6}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

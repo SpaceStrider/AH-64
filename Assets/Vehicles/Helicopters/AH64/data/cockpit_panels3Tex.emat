@@ -1,0 +1,5 @@
+MatPBRBasic {
+ BCRMap "{46D91600717CD22E}Assets/Vehicles/Rotary/AH64/data/Textures/cockpit_panels3Tex_BCR.edds"
+ NormalPower 0.2
+ NMOMap "{7E01AD92A80B80B0}Assets/Vehicles/Rotary/AH64/data/Textures/cockpit_panels3Tex_NMO.edds"
+}

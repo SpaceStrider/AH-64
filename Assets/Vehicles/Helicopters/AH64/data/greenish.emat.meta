@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{C2F7E4E494D6AA8D}Assets/Vehicles/Rotary/AH64/data/greenish.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

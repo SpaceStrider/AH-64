@@ -1,0 +1,20 @@
+MetaFileClass {
+ Name "{8D6A71150C1A7D7B}Assets/Vehicles/Rotary/AH64/data/Textures/cockpit_knobButtonTex_BCR.edds"
+ Configurations {
+  TIFFResourceClass PC {
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass PS4 : PC {
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass HEADLESS : PC {
+   ColorSpace ToSRGB
+  }
+ }
+}
