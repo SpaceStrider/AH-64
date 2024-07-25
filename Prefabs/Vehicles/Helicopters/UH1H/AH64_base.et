@@ -300,6 +300,9 @@ Vehicle : "{CBD8C2393BE87581}Prefabs/Vehicles/Core/Helicopter_Base.et" {
     Icon "{BFBA42C85CB25019}UI/Textures/Editor/EditableEntities/Vehicles/EditableEntity_Vehicle_Helicopter.edds"
     m_Image "{CEE738B62AC2BE36}UI/Textures/EditorPreviews/Vehicles/Rotary/AH64/AH64D.edds"
     m_sFaction "US"
+    m_aAuthoredLabels + {
+     1001 21
+    }
     m_aAutoLabels {
      11 122
     }
@@ -1134,5 +1137,5 @@ Vehicle : "{CBD8C2393BE87581}Prefabs/Vehicles/Core/Helicopter_Base.et" {
    DeactivationDelay 0.7
   }
  }
- coords 104.574 1 134.509
+ coords 1317.804 38.007 2837.589
 }
