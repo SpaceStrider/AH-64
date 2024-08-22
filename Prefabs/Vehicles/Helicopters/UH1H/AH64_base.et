@@ -797,7 +797,7 @@ Vehicle : "{CBD8C2393BE87581}Prefabs/Vehicles/Core/Helicopter_Base.et" {
      RegisterDamage 1
     }
     RegisteringComponentSlotInfo Turret {
-     MergePhysics 1
+     MergePhysics 0
      Prefab "{CDA3E62F5CF8B748}Prefabs/Vehicles/Helicopters/UH1H/VehParts/Turret/AH64_Turret.et"
      DisablePhysicsInteraction 1
      RegisterActions 1
