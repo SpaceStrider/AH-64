@@ -1,4 +1,5 @@
 MatPBRBasic {
  Color 0.117 0.11 0.103 1
- BCRMap "{8EADB31D864DD0FC}Assets/_SharedData/Metal/ST_MetalBare_01_BCR.edds"
+ BCRMap "{1837E633B1A92A98}Assets/_SharedData/Metal/ST_MetalPaint_Coated_02_1m_BCR.edds"
+ NMOMap "{20EF5DA168DE7806}Assets/_SharedData/Metal/ST_MetalPaint_Coated_02_1m_NMO.edds"
 }

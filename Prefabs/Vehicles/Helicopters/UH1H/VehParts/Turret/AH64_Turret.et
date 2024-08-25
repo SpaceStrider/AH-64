@@ -39,15 +39,17 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
   SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
    DoorInfoList {
     CompartmentDoorInfo "{61F0B90BDC308C8E}" {
-     AnimDoorIndex 1
      ContextName "door_l01"
+     Coverage 0.3
      EntryPositionInfo PointInfo "{61F0B90BD7104C00}" {
       Offset 1.635 0 1.9426
       Angles 0 -90 0
      }
      ExitPositionInfo PointInfo "{61F0B90BD1EBBFA7}" {
       PivotID "copilot_idle"
+      Angles 0 90 0
      }
+     GetInSeatAligningOnEvent 1
      FakeDoor 1
      AccessibilitySettings CompartmentAccessibilityContext "{61F0B90BC8331B09}" {
      }
@@ -214,6 +216,34 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
     MergePhysics 1
    }
    WeaponTemplate "{BC8DDBB7764EB35E}Prefabs/Weapons/HeavyWeapons/HMG_M230.et"
+  }
+  WeaponSlotComponent "{6232479C15571243}" {
+   SignalsSourceAccess SignalsSourceAccessClass "{6232479FF71C16D2}" {
+    signalsSuffix "Turret"
+   }
+   shouldHandleObstruction 0
+   AttachType InventoryStorageSlot RocketL {
+    PivotID "Weapon_01_Dummy"
+    Offset 0 0.01 0
+    Angles 0 180 0
+    MergePhysics 1
+   }
+   WeaponTemplate "{33C48FD914954295}Prefabs/Weapons/RocketPods/VehicleLauncher_AGM114.et"
+   WeaponSlotIndex 1
+  }
+  WeaponSlotComponent "{6232479C1A4DD946}" {
+   SignalsSourceAccess SignalsSourceAccessClass "{6232479FF4EA53F8}" {
+    signalsSuffix "Turret"
+   }
+   shouldHandleObstruction 0
+   AttachType InventoryStorageSlot RocketR {
+    PivotID "Weapon_04_Dummy"
+    Offset 0 0.01 0
+    Angles 0 180 0
+    MergePhysics 1
+   }
+   WeaponTemplate "{24D162E92F59094F}Prefabs/Weapons/RocketPods/VehicleLauncher_AGM114_R.et"
+   WeaponSlotIndex 2
   }
   SCR_TurretInventoryStorageManagerComponent "{615623F1FF64DC4F}" {
    Enabled 0

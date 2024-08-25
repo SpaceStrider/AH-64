@@ -16,7 +16,7 @@ GenericEntity : "{F54F6C453A8CB478}Prefabs/Weapons/Core/MachineGun_Base.et" {
     }
     MaterialAssignClass "{5CD02269F10A35CE}" {
      SourceMaterial "GunMetall"
-     AssignedMaterial "{A7EF60F7768FFB7E}Assets/Vehicles/Rotary/AH64/data/GunMetall.emat"
+     AssignedMaterial "{A7EF60F7768FFB7E}Assets/Vehicles/Helicopters/AH64/data/GunMetall.emat"
     }
     MaterialAssignClass "{5CD02269F10A35C3}" {
      SourceMaterial "Iron"
@@ -25,8 +25,8 @@ GenericEntity : "{F54F6C453A8CB478}Prefabs/Weapons/Core/MachineGun_Base.et" {
    }
   }
   RigidBody "{5CD01BA7D7106886}" {
-   Enabled 0
    Mass 58
+   SimState Collision
    ModelGeometry 1
   }
   SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {

@@ -1,11 +1,14 @@
-Vehicle AH64D_base1 {
- coords 95.777 1 153.298
-}
 Vehicle AH64_base1 : "{0149B16F827C4CE6}Prefabs/Vehicles/Helicopters/UH1H/AH64_base.et" {
  coords 104.574 1 134.509
 }
 VehiclePartRotor : "{31CC44C2EDD743B7}Prefabs/Vehicles/Helicopters/UH1H/VehParts/Rotor/VehPart_UH1H_rotor_main.et" {
  coords 75.53 1 155.716
+}
+Projectile : "{31D32929F2C68D43}Prefabs/Weapons/Ammo/Ammo_Missile_AGM114.et" {
+ coords 107.176 2.071 145.118
+}
+GenericEntity : "{33C48FD914954295}Prefabs/Weapons/RocketPods/VehicleLauncher_AGM114.et" {
+ coords 105.843 2.991 145.532
 }
 GenericEntity : "{6647CF61BDFD223D}Prefabs/Vehicles/Helicopters/UH1H/VehParts/Cockpit/VehPart_UH1H_cockpitpanel_main.et" {
  coords 87.58 1 159.8
@@ -13,8 +16,32 @@ GenericEntity : "{6647CF61BDFD223D}Prefabs/Vehicles/Helicopters/UH1H/VehParts/Co
 Turret : "{66596659FB0F645B}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/BTR70_Turret.et" {
  coords 110.564 1 146.158
 }
+GenericEntity : "{6DEF77B8CDF7528D}Prefabs/Weapons/Launchers/BGONE_Launcher_SACLOS.et" {
+ coords 106.65 1.243 147.383
+}
 Vehicle UH1H1 : "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et" {
  coords 78.758 1 130.049
+}
+GenericEntity : "{82C0AFB409A3AE0B}Prefabs/Weapons/Launchers/BGONE_Launcher_VIS.et" {
+ coords 107.829 1 146.691
+}
+GenericEntity : "{85FA621B61AA5BD9}Prefabs/Weapons/HeavyWeapons/HMG_KPVT.et" {
+ coords 108.956 2.639 145.036
+}
+GenericEntity : "{9064206CBDE9CD95}Prefabs/Weapons/Core/Launcher_Base.et" {
+ coords 133.469 1.747 147.574
+}
+GenericEntity : "{99928FAD6ED0CC57}Prefabs/Weapons/RocketPods/VehicleLauncher_LAU61.et" {
+ coords 132.115 1.981 147.189
+}
+Projectile : "{A5C5EDACAA02EFA5}Prefabs/Weapons/Ammo/BGONE_Ammo_Missile_VIS_TOP.et" {
+ coords 105.875 1 146.435
+}
+GenericEntity : "{BC8DDBB7764EB35E}Prefabs/Weapons/HeavyWeapons/HMG_M230.et" {
+ coords 106.255 1.757 142.999
+}
+GenericEntity : "{BD048236F83D85DA}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_base.et" {
+ coords 134.499 1 147.525
 }
 $grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
  BTR1 {
