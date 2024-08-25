@@ -1,21 +1,38 @@
+Vehicle AH64D_base1 {
+ coords 95.777 1 153.298
+}
+Vehicle AH64_base1 : "{0149B16F827C4CE6}Prefabs/Vehicles/Helicopters/UH1H/AH64_base.et" {
+ coords 104.574 1 134.509
+}
 VehiclePartRotor : "{31CC44C2EDD743B7}Prefabs/Vehicles/Helicopters/UH1H/VehParts/Rotor/VehPart_UH1H_rotor_main.et" {
  coords 75.53 1 155.716
 }
 GenericEntity : "{6647CF61BDFD223D}Prefabs/Vehicles/Helicopters/UH1H/VehParts/Cockpit/VehPart_UH1H_cockpitpanel_main.et" {
  coords 87.58 1 159.8
 }
+Turret : "{66596659FB0F645B}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/BTR70_Turret.et" {
+ coords 110.564 1 146.158
+}
 Vehicle UH1H1 : "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et" {
  coords 78.758 1 130.049
 }
-Vehicle AH64D_base1 : "{91838DB556DCAAF4}Prefabs/Vehicles/Helicopters/UH1H/AH64D_base.et" {
- coords 95.777 1 153.298
+$grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ BTR1 {
+  coords 64.197 1 151.113
+ }
+ BTR2 {
+  coords 101.223 1 151.769
+ }
 }
-Vehicle BTR1 : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
- coords 64.197 1 151.113
+Turret : "{CDA3E62F5CF8B748}Prefabs/Vehicles/Helicopters/UH1H/VehParts/Turret/AH64_Turret.et" {
+ coords 102.5 1 140.807
 }
 Vehicle UH1H_base1 : "{D03C0F6044DB5208}Prefabs/Vehicles/Helicopters/UH1H/UH1H_base.et" {
  coords 94.766 1 133.706
 }
-Vehicle Mi8MT1 : "{DF5CCB7C0FF049F4}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT.et" {
+Vehicle Mi8MT1 : "{DF5CCB7C0FF049F4}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_unarmed_transport.et" {
  coords 50.462 1 130.308
+}
+Vehicle AH64D1 : "{F2C8E85F145934F4}Prefabs/Vehicles/Helicopters/UH1H/AH64D.et" {
+ coords 123.47 1 141.934
 }

@@ -59,6 +59,7 @@ Vehicle : "{0149B16F827C4CE6}Prefabs/Vehicles/Helicopters/UH1H/AH64_base.et" {
     PivotID "Weapon_03_Dummy"
     Offset 0 0.07 0
     Angles 0 180 0
+    DisablePhysicsInteraction 1
    }
    WeaponTemplate "{85DB08FDD3FC7229}Prefabs/Weapons/RocketPods/VehicleLauncher_LAU61_R.et"
   }
@@ -67,8 +68,30 @@ Vehicle : "{0149B16F827C4CE6}Prefabs/Vehicles/Helicopters/UH1H/AH64_base.et" {
     PivotID "Weapon_02_Dummy"
     Offset 0 0.07 0
     Angles 0 180 0
+    DisablePhysicsInteraction 1
    }
    WeaponTemplate "{99928FAD6ED0CC57}Prefabs/Weapons/RocketPods/VehicleLauncher_LAU61.et"
+   WeaponSlotIndex 1
+  }
+  WeaponSlotComponent "{61F29EEA2BA85C69}" {
+   AttachType InventoryStorageSlot "{61F29EEBDD6F9C91}" {
+    PivotID "Weapon_01_Dummy"
+    Offset 0 0.07 0
+    Angles 0 180 0
+    DisablePhysicsInteraction 1
+   }
+   WeaponTemplate "{99928FAD6ED0CC57}Prefabs/Weapons/RocketPods/VehicleLauncher_LAU61.et"
+   WeaponSlotIndex 2
+  }
+  WeaponSlotComponent "{61F29EEA2E290A10}" {
+   AttachType InventoryStorageSlot "{61F29EEBDFCB8B47}" {
+    PivotID "Weapon_04_Dummy"
+    Offset 0 0.07 0
+    Angles 0 180 0
+    DisablePhysicsInteraction 1
+   }
+   WeaponTemplate "{85DB08FDD3FC7229}Prefabs/Weapons/RocketPods/VehicleLauncher_LAU61_R.et"
+   WeaponSlotIndex 3
   }
   ActionsManagerComponent "{C97BE5489221AE18}" {
    additionalActions {
@@ -110,4 +133,5 @@ Vehicle : "{0149B16F827C4CE6}Prefabs/Vehicles/Helicopters/UH1H/AH64_base.et" {
    }
   }
  }
+ coords 146.937 0 1249.823
 }
