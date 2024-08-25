@@ -186,6 +186,22 @@ Vehicle : "{CBD8C2393BE87581}Prefabs/Vehicles/Core/Helicopter_Base.et" {
    Mass 2365
   }
   SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{61F097CA9C57EF0B}" {
+     ContextName "door_r01"
+     Coverage 0.3
+     EntryPositionInfo PointInfo "{61F097CA965B2985}" {
+      Offset 1.635 0.3 1.9426
+      Angles 0 -90 0
+     }
+     ExitPositionInfo PointInfo "{61F097CA910E420C}" {
+      PivotID "pilot_idle"
+     }
+     FakeDoor 1
+     AccessibilitySettings CompartmentAccessibilityContext "{61F097CA878D008F}" {
+     }
+    }
+   }
    CompartmentSlots {
     PilotCompartmentSlot PilotCompartment {
      CompartmentAction SCR_GetInUserAction "{5086DB209BDE8253}" {
@@ -193,12 +209,9 @@ Vehicle : "{CBD8C2393BE87581}Prefabs/Vehicles/Core/Helicopter_Base.et" {
        "door_r01"
       }
      }
-     GetOutAction SCR_GetOutAction "{615616989235F9F8}" {
+     GetOutAction SCR_GetOutAction "{509D56667AFC4BD5}" {
       ParentContextList {
        "door_r01_int"
-      }
-      UIInfo UIInfo "{615616989235F9FB}" {
-       Name "#AR-UserAction_GetOut"
       }
      }
      SwitchSeatAction SCR_SwitchSeatAction "{509D56667885A8DC}" {
@@ -209,7 +222,12 @@ Vehicle : "{CBD8C2393BE87581}Prefabs/Vehicles/Core/Helicopter_Base.et" {
      AdditionalActions {
       SCR_RemoveCasualtyUserAction "{5D528254D8CE5491}" {
        ParentContextList {
-        "door_r01" "pilot"
+        "pilot"
+       }
+      }
+      SCR_RemoveCasualtyUserAction "{61089D5E93B44D65}" {
+       ParentContextList {
+        "door_r01"
        }
       }
      }
@@ -217,22 +235,9 @@ Vehicle : "{CBD8C2393BE87581}Prefabs/Vehicles/Core/Helicopter_Base.et" {
       PivotID "pilot_idle"
       Offset 0 -0.1 -0.1
      }
-     SeatType 1
+     SeatType 0
      DoorInfoList {
-      CompartmentDoorInfo "{50B8D5DDA17EB35D}" {
-       ContextName "door_r01"
-       EntryPositionInfo PointInfo "{50B8D5DD213DC00C}" {
-        Offset 1.635 0 1.9426
-        Angles 0 -90 0
-       }
-       ExitPositionInfo PointInfo "{615616989235F805}" {
-        PivotID "pilot_idle"
-       }
-      }
-     }
-     AccessibilitySettings CompartmentAccessibilityContext "{615616989235F807}" {
-      TraceOffset 0 0.2 0.5
-      TraceLength -0.5
+      0
      }
     }
    }
@@ -295,6 +300,9 @@ Vehicle : "{CBD8C2393BE87581}Prefabs/Vehicles/Core/Helicopter_Base.et" {
     Icon "{BFBA42C85CB25019}UI/Textures/Editor/EditableEntities/Vehicles/EditableEntity_Vehicle_Helicopter.edds"
     m_Image "{CEE738B62AC2BE36}UI/Textures/EditorPreviews/Vehicles/Rotary/AH64/AH64D.edds"
     m_sFaction "US"
+    m_aAuthoredLabels + {
+     1001 21
+    }
     m_aAutoLabels {
      11 122
     }
@@ -789,7 +797,9 @@ Vehicle : "{CBD8C2393BE87581}Prefabs/Vehicles/Core/Helicopter_Base.et" {
      RegisterDamage 1
     }
     RegisteringComponentSlotInfo Turret {
+     MergePhysics 0
      Prefab "{CDA3E62F5CF8B748}Prefabs/Vehicles/Helicopters/UH1H/VehParts/Turret/AH64_Turret.et"
+     DisablePhysicsInteraction 1
      RegisterActions 1
      RegisterDamage 1
      RegisterCompartments 1
@@ -838,6 +848,7 @@ Vehicle : "{CBD8C2393BE87581}Prefabs/Vehicles/Core/Helicopter_Base.et" {
      Position PointInfo "{61561698922AB027}" {
       Offset 0.55 1.35 2.4
      }
+     Radius 0.3
     }
     UserActionContext "{61561698922AB020}" {
      ContextName "copilot"
@@ -862,9 +873,10 @@ Vehicle : "{CBD8C2393BE87581}Prefabs/Vehicles/Core/Helicopter_Base.et" {
     UserActionContext "{61561698922B7C43}" {
      ContextName "door_l01"
      Position PointInfo "{61561698922B536D}" {
-      Offset 0.67 2.2 2.8
+      Offset 0.6835 1.9655 3.6902
       Angles 0 90 0
      }
+     Radius 0.5
     }
     UserActionContext "{61561698922B536C}" {
      ContextName "door_l01_int"
@@ -879,8 +891,9 @@ Vehicle : "{CBD8C2393BE87581}Prefabs/Vehicles/Core/Helicopter_Base.et" {
      ContextName "door_r01"
      Position PointInfo "{61561698922C6934}" {
       PivotID "v_door_R01_handle"
-      Offset 0.67 2.2 1.7634
+      Offset 0.67 2.1605 2.0537
      }
+     Radius 0.5
      Omnidirectional 0
     }
     UserActionContext "{61561698922C693B}" {
@@ -1058,6 +1071,11 @@ Vehicle : "{CBD8C2393BE87581}Prefabs/Vehicles/Core/Helicopter_Base.et" {
     }
    }
    additionalActions {
+    SCR_RefuelAtSupportStationAction "{5B02B547EDCF6F99}" : "{7891F1B10FA40962}Configs/Actions/SupportStationActions/Refuel/BaseRefuel.conf" {
+     ParentContextList {
+      "fuel_cap_l"
+     }
+    }
     SCR_RepairAtSupportStationAction "{5B02B547E8F16AF2}" : "{1B886EAAAB373515}Configs/Actions/SupportStationActions/Repair/DriveTrain/Heli_Repair_DriveTrain.conf" {
      ParentContextList {
       "engine_l" "engine_r"
@@ -1066,11 +1084,6 @@ Vehicle : "{CBD8C2393BE87581}Prefabs/Vehicles/Core/Helicopter_Base.et" {
     SCR_RepairAtSupportStationAction "{5E20D2E3B055B082}" : "{8C07FF07DC9C77AF}Configs/Actions/SupportStationActions/Repair/Hull/Heli_Repair_Hull.conf" {
     }
     SCR_RepairAtSupportStationAction "{5E1CB6DF63753AD9}" : "{34FDBD1B59844DAD}Configs/Actions/SupportStationActions/Repair/FuelTank/Repair_FuelTank.conf" {
-     ParentContextList {
-      "fuel_cap_l"
-     }
-    }
-    SCR_RefuelAtSupportStationAction "{5B02B547EDCF6F99}" : "{7891F1B10FA40962}Configs/Actions/SupportStationActions/Refuel/BaseRefuel.conf" {
      ParentContextList {
       "fuel_cap_l"
      }
@@ -1113,8 +1126,8 @@ Vehicle : "{CBD8C2393BE87581}Prefabs/Vehicles/Core/Helicopter_Base.et" {
    }
   }
   VehicleAnimationComponent "{50B80BCCBF0B33C8}" {
-   AnimGraph "{CF2B4D8B3573D951}Assets/Vehicles/Helicopters/Mi8/workspace/Mi8.agr"
-   AnimInstance "{0D895ADCF553E8E7}Assets/Vehicles/Helicopters/Mi8/workspace/Mi8_helicopter.asi"
+   AnimGraph "{2E7DC909B8C4128F}Assets/Vehicles/Helicopters/UH1H/workspace/UH1A.agr"
+   AnimInstance "{C3179CD2A4CD4061}Assets/Vehicles/Helicopters/UH1H/workspace/UH1A.asi"
    StartNode "MasterControlVehicle"
    AnimInjection AnimationAttachmentInfo "{50B80BCCA6210E6D}" {
     AnimGraph "{2E7DC909B8C4128F}Assets/Vehicles/Helicopters/UH1H/workspace/UH1A.agr"
@@ -1124,5 +1137,5 @@ Vehicle : "{CBD8C2393BE87581}Prefabs/Vehicles/Core/Helicopter_Base.et" {
    DeactivationDelay 0.7
   }
  }
- coords 1286.016 51 1359.295
+ coords 1317.804 38.007 2837.589
 }
