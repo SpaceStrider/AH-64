@@ -1,4 +1,4 @@
-Vehicle : "{0149B16F827C4CE6}Prefabs/Vehicles/Helicopters/UH1H/AH64_base.et" {
+Vehicle : "{0149B16F827C4CE6}Prefabs/Vehicles/Helicopters/AH64/AH64_base.et" {
  ID "57DA6675519A417B"
  components {
   SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
@@ -66,20 +66,31 @@ Vehicle : "{0149B16F827C4CE6}Prefabs/Vehicles/Helicopters/UH1H/AH64_base.et" {
     PivotID "Weapon_03_Dummy"
     Offset 0 0.07 0
     Angles 0 180 0
-    MergePhysics 1
+    DisablePhysicsInteraction 1
    }
-   WeaponTemplate "{85DB08FDD3FC7229}Prefabs/Weapons/RocketPods/VehicleLauncher_LAU61_R.et"
+   WeaponTemplate "{EE7028E9DF49763A}Prefabs/Weapons/Core/Handgun_Base.et"
   }
   WeaponSlotComponent "{6156198E0EBF4AE6}" {
    shouldHandleObstruction 0
    AttachType InventoryStorageSlot rocket_01 {
+    PivotID "Weapon_03_Dummy"
+    Offset 0 0.07 0
+    Angles 0 180 0
+    DisablePhysicsInteraction 1
+   }
+   WeaponTemplate "{85DB08FDD3FC7229}Prefabs/Weapons/RocketPods/VehicleLauncher_LAU61_R.et"
+   WeaponSlotIndex 1
+  }
+  WeaponSlotComponent "{6258003547378988}" {
+   shouldHandleObstruction 0
+   AttachType InventoryStorageSlot launcherR {
     PivotID "Weapon_02_Dummy"
     Offset 0 0.07 0
     Angles 0 180 0
-    MergePhysics 1
+    DisablePhysicsInteraction 1
    }
    WeaponTemplate "{99928FAD6ED0CC57}Prefabs/Weapons/RocketPods/VehicleLauncher_LAU61.et"
-   WeaponSlotIndex 1
+   WeaponSlotIndex 2
   }
   ActionsManagerComponent "{C97BE5489221AE18}" {
    additionalActions {

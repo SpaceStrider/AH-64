@@ -213,7 +213,7 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
    shouldHandleObstruction 0
    AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
     Offset 0 0 0
-    MergePhysics 1
+    DisablePhysicsInteraction 1
    }
    WeaponTemplate "{BC8DDBB7764EB35E}Prefabs/Weapons/HeavyWeapons/HMG_M230.et"
   }
@@ -226,7 +226,7 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
     PivotID "Weapon_01_Dummy"
     Offset 0 0.01 0
     Angles 0 180 0
-    MergePhysics 1
+    DisablePhysicsInteraction 1
    }
    WeaponTemplate "{33C48FD914954295}Prefabs/Weapons/RocketPods/VehicleLauncher_AGM114.et"
    WeaponSlotIndex 1
@@ -240,7 +240,7 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
     PivotID "Weapon_04_Dummy"
     Offset 0 0.01 0
     Angles 0 180 0
-    MergePhysics 1
+    DisablePhysicsInteraction 1
    }
    WeaponTemplate "{24D162E92F59094F}Prefabs/Weapons/RocketPods/VehicleLauncher_AGM114_R.et"
    WeaponSlotIndex 2
